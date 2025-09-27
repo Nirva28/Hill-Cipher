@@ -41,7 +41,7 @@ Through this project, I explored the fundamental concepts behind the Hill Cipher
 
 ## ▶️ Usage
 ### 1.Run the Program
-''' python3 hill_cipher.py '''
+``` python3 hill_cipher.py ```
 
 Once it runs, it will present a menu with the following options:
 
