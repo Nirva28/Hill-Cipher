@@ -58,11 +58,15 @@ Once it runs, it will present a menu with the following options:
 1. Encrypt
 2. Decrypt
 3. Exit
+ 
 Choose an option: 1
 
 Please enter the key of length 9 or lower: SECRETKEY
+
 New key secretkeya
+
 Please enter your message: hello
+
 Encoded Message: qzcqzv
 
 
@@ -70,9 +74,13 @@ Encoded Message: qzcqzv
 1. Encrypt
 2. Decrypt
 3. Exit
+
 Choose an option: 2
 
 Please enter the key of length 9 or lower: SECRETKEY
+
 New key secretkeya
+
 Please enter the encrypted message: qzcqzv
+
 Original Message: hello
