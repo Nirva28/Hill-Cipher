@@ -47,8 +47,11 @@ python3 hill_cipher.py
 ```
 
    Once it runs, it will present a menu with the following options:
+   
    1.Encrypt a message – Enter plaintext and a key to generate ciphertext.
+   
    2.Decrypt a message – Enter ciphertext and the same key to recover plaintext.
+   
    3.Exit – Quit the program.
 
 
