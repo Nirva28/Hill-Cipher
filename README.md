@@ -11,6 +11,7 @@ This code was developed as part of a college project to gain a deeper understand
 - Modular arithmetic (mod 26 for the alphabet)
 
 - Classical cryptography techniques
+  
 The objective was to implement the Hill Cipher encryption and decryption algorithm from scratch, without using external libraries or predefined matrix functions.
 
 Through this project, I explored the fundamental concepts behind the Hill Cipher and gained practical experience in combining mathematics with cryptography in Python.
