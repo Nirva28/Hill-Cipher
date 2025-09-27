@@ -36,3 +36,10 @@ Its multiplicative inverse is found.
 Using the adjoint and inverse determinant, the inverse matrix is built.
 
 Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
+
+
+## ▶️ Usage
+### 1.Clone the repository
+git clone https://github.com/YourUsername/HillCipher_3x3.git
+cd HillCipher_3x3
+
