@@ -6,14 +6,14 @@ In this implementation, a 3×3 key matrix is used, which means the plaintext is 
 
 ## 📖 Introduction
 This code was developed as part of a college project to gain a deeper understanding of:
-Matrix operations (multiplication, determinant, adjoint, inverse)
+- Matrix operations (multiplication, determinant, adjoint, inverse)
 
-Modular arithmetic (mod 26 for the alphabet)
+- Modular arithmetic (mod 26 for the alphabet)
 
-Classical cryptography techniques
-The objective was to implement the Hill Cipher encryption and decryption algorithm from scratch, without using external libraries or predefined matrix functions.
+- Classical cryptography techniques
+- The objective was to implement the Hill Cipher encryption and decryption algorithm from scratch, without using external libraries or predefined matrix functions.
 
-Through this project, I explored the fundamental concepts behind the Hill Cipher and gained practical experience in combining mathematics with cryptography in Python.
+- Through this project, I explored the fundamental concepts behind the Hill Cipher and gained practical experience in combining mathematics with cryptography in Python.
 
 ## 🛠 How does the program work?
 ### 1.Key Matrix Creation
@@ -35,7 +35,7 @@ Through this project, I explored the fundamental concepts behind the Hill Cipher
 
 - Using the adjoint and inverse determinant, the inverse matrix is built.
 
-  -Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
+- Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
 
 
 ## ▶️ Usage
