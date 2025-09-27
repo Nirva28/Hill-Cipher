@@ -54,7 +54,7 @@ Once it runs, it will present a menu with the following options:
 
 ## 📂 Example Run
 
-``` bash
+``` 
 ----- Hill Cipher Menu -----
 1. Encrypt
 2. Decrypt
@@ -68,9 +68,11 @@ New key secretkeya
 
 Please enter your message: hello
 
-Encoded Message: qzcqzv ```
+Encoded Message: qzcqzv 
+```
 
-``` bash
+
+```
 ----- Hill Cipher Menu -----
 1. Encrypt
 2. Decrypt
@@ -84,4 +86,5 @@ New key secretkeya
 
 Please enter the encrypted message: qzcqzv
 
-Original Message: hello ```
+Original Message: hello
+```
