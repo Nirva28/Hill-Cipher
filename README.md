@@ -39,7 +39,13 @@ Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover th
 
 
 ## ▶️ Usage
-### 1.Clone the repository
-git clone https://github.com/YourUsername/HillCipher_3x3.git
-cd HillCipher_3x3
+### 1.Run the Program
+python3 hill_cipher.py
+Once it runs, it will present a menu with the following options:
+
+1.Encrypt a message – Enter plaintext and a key to generate ciphertext.
+
+2.Decrypt a message – Enter ciphertext and the same key to recover plaintext.
+
+3.Exit – Quit the program.
 
