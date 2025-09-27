@@ -68,7 +68,7 @@ New key secretkeya
 
 Please enter your message: hello
 
-Encoded Message: qzcqzv
+Encoded Message: qzcqzv ```
 
 ``` bash
 ----- Hill Cipher Menu -----
@@ -84,4 +84,4 @@ New key secretkeya
 
 Please enter the encrypted message: qzcqzv
 
-Original Message: hello
+Original Message: hello ```
