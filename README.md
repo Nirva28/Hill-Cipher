@@ -20,3 +20,19 @@ Through this project, I explored the fundamental concepts behind the Hill Cipher
 The key string (length 9 or padded) is converted into numbers (a=0, b=1, ..., z=25).
 
 These numbers are reshaped into a 3×3 key matrix.
+
+### 2.Encryption
+The plaintext is split into blocks of 3.
+
+Each block is multiplied by the key matrix under modulo 26.
+
+The resulting numbers are converted back to letters to form ciphertext.
+
+### 3.Decryption
+The determinant of the key matrix is computed modulo 26.
+
+Its multiplicative inverse is found.
+
+Using the adjoint and inverse determinant, the inverse matrix is built.
+
+Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
