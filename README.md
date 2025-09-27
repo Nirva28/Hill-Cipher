@@ -16,7 +16,7 @@ The objective was to implement the Hill Cipher encryption and decryption algorit
 Through this project, I explored the fundamental concepts behind the Hill Cipher and gained practical experience in combining mathematics with cryptography in Python.
 
 ## 🛠 How does the program work?
-# 1.Key Matrix Creation
+### 1.Key Matrix Creation
 The key string (length 9 or padded) is converted into numbers (a=0, b=1, ..., z=25).
 
 These numbers are reshaped into a 3×3 key matrix.
