@@ -17,25 +17,25 @@ Through this project, I explored the fundamental concepts behind the Hill Cipher
 
 ## 🛠 How does the program work?
 ### 1.Key Matrix Creation
-  The key string (length 9 or padded) is converted into numbers (a=0, b=1, ..., z=25).
+  -The key string (length 9 or padded) is converted into numbers (a=0, b=1, ..., z=25).
 
-  These numbers are reshaped into a 3×3 key matrix.
+  -These numbers are reshaped into a 3×3 key matrix.
 
 ### 2.Encryption
-  The plaintext is split into blocks of 3.
+  -The plaintext is split into blocks of 3.
 
-  Each block is multiplied by the key matrix under modulo 26.
+  -Each block is multiplied by the key matrix under modulo 26.
 
-  The resulting numbers are converted back to letters to form ciphertext.
+  -The resulting numbers are converted back to letters to form ciphertext.
 
 ### 3.Decryption
-  The determinant of the key matrix is computed modulo 26.
+  -The determinant of the key matrix is computed modulo 26.
 
-  Its multiplicative inverse is found.
+  -Its multiplicative inverse is found.
 
-  Using the adjoint and inverse determinant, the inverse matrix is built.
+  -Using the adjoint and inverse determinant, the inverse matrix is built.
 
-  Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
+  -Ciphertext blocks are multiplied with the inverse matrix modulo 26 to recover the original plaintext.
 
 
 ## ▶️ Usage
