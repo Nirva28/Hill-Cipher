@@ -100,8 +100,11 @@ Decrypted: "hillcipher"
 
 ## 🔹Advantages & Limitations
 ✅ Stronger than simple substitution ciphers
+
 ✅ Resists frequency analysis (polygraphic)
+
 ❌ Requires matrix inverse → not all keys valid
+
 ❌ Works only on block sizes matching key matrix
 
 
@@ -112,11 +115,5 @@ Decrypted: "hillcipher"
 - Demonstrates importance of linear algebra in encryption
 
 - Still used for teaching classical ciphers though not secure for modern use
-
-
-
-
-
-
 
 
