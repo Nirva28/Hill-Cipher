@@ -27,7 +27,7 @@ a=0, b=1, ..., z=25
 
 ## 🔹Encryption Flow (Code Part 1) :
 
-### Functions used :
+#### Functions used :
 - ``` keyMatrixMaker(key) ``` → converts key string → 3×3 numeric matrix
   
 - ```matrixMultiplier(a,b)``` → multiplies key matrix with message vector
@@ -52,7 +52,7 @@ a=0, b=1, ..., z=25
 
 ## 🔹Decryption Flow (Code Part 2) :
 
-### Additional Functions:
+#### Additional Functions:
 - ```matrixTranspose(m)```
 
 - ```matrixCofactor(m)```
@@ -65,7 +65,7 @@ a=0, b=1, ..., z=25
 
 - ```matrixInverse(m)``` → inverse of key matrix modulo 26
 
-### Steps:
+#### Steps:
 1. Compute inverse key matrix mod 26
 
 2. Convert ciphertext into numeric blocks
@@ -84,25 +84,34 @@ a=0, b=1, ..., z=25
 
 
 ## 🔹Demo Output ;
-### Encryption Example:
+#### Encryption Example:
 ```
   Key: "mathcipher"
   Message: "hillcipher"
   Encrypted: "lbxvfw..."
 ```
 
-### Decryption Example: 
+#### Decryption Example: 
 ```
 Encrypted: "lbxvfw..."
 Decrypted: "hillcipher"
 ```
 
 
+## 🔹Advantages & Limitations
+✅ Stronger than simple substitution ciphers
+✅ Resists frequency analysis (polygraphic)
+❌ Requires matrix inverse → not all keys valid
+❌ Works only on block sizes matching key matrix
 
 
+## 🔹Conclusion
 
+- Hill Cipher is an elegant blend of algebra and cryptography
 
+- Demonstrates importance of linear algebra in encryption
 
+- Still used for teaching classical ciphers though not secure for modern use
 
 
 
