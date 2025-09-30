@@ -1,3 +1,6 @@
+# Name : Nirva Nadapara
+# I'D : 202401437
+
 # Hill Cipher Encryption and Decryption (for 3×3 matrix)
 This repository contains a Python implementation of the Hill Cipher encryption and decryption algorithm.
 
