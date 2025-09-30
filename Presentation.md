@@ -1,7 +1,11 @@
+# Name : Nirva Nadapara
+# I'd : 202401437
+
 # 📑 Presentation: Hill Cipher Implementation (3x3 Key Matrix)
 
 ## Hill Cipher Encryption & Decryption
    A classical cryptography algorithm using linear algebra
+   
 
 
 ## 🔹Introduction :
