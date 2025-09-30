@@ -35,3 +35,12 @@ a=0, b=1, ..., z=25
 - ```listOrdConverter(l)``` → converts message to numbers (ord - 97)
 
 - ```matrixInverseChecker(m)``` → ensures matrix is invertible
+
+
+## 🔹Encryption Example :
+- Key entered: ```"abcdefghi"```
+  → Key Matrix =
+  ``` [0 1 2]
+     [3 4 5]
+     [6 7 8] ```
+
