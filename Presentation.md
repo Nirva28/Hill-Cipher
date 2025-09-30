@@ -40,7 +40,74 @@ a=0, b=1, ..., z=25
 ## 🔹Encryption Example :
 - Key entered: ```"abcdefghi"```
   → Key Matrix =
-  ``` [0 1 2]
+  ```
+     [0 1 2]
      [3 4 5]
-     [6 7 8] ```
+     [6 7 8]
+   ```
+- Plaintext: ```"meetme"``` → padded → ```"meetmez"```
+
+- Ciphertext = transformed message (mod 26)
+
+
+## 🔹Decryption Flow (Code Part 2) :
+
+### Additional Functions:
+- ```matrixTranspose(m)```
+
+- ```matrixCofactor(m)```
+
+- ```matrixAdjoint(m)```
+
+- ```matrixDeterminant(m)```
+
+- ```multiplicativeInverse(num)``` → modular inverse under mod 26
+
+- ```matrixInverse(m)``` → inverse of key matrix modulo 26
+
+### Steps:
+1. Compute inverse key matrix mod 26
+
+2. Convert ciphertext into numeric blocks
+
+3. Multiply each block with inverse key matrix
+
+4. Convert numbers back → plaintext
+
+
+## 🔹Important Conditions :
+- Key must form a non-singular matrix (determinant ≠ 0 mod 26)
+
+- Otherwise, inverse does not exist → decryption impossible
+
+- Padding ensures all blocks are of size 3
+
+
+## 🔹Demo Output ;
+### Encryption Example:
+```
+  Key: "mathcipher"
+  Message: "hillcipher"
+  Encrypted: "lbxvfw..."
+```
+
+### Decryption Example: 
+```
+Encrypted: "lbxvfw..."
+Decrypted: "hillcipher"
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
