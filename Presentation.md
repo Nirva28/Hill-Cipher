@@ -26,3 +26,12 @@ a=0, b=1, ..., z=25
 
 
 ## 🔹Encryption Flow (Code Part 1) :
+
+### Functions used :
+- ``` keyMatrixMaker(key) ``` → converts key string → 3×3 numeric matrix
+  
+- ```matrixMultiplier(a,b)``` → multiplies key matrix with message vector
+
+- ```listOrdConverter(l)``` → converts message to numbers (ord - 97)
+
+- ```matrixInverseChecker(m)``` → ensures matrix is invertible
